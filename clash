@@ -5,77 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲 2, server: 167.88.63.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 3, server: 172.105.41.63, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 4, server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲 5, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 欧洲 6, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 欧洲 7, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 欧洲 8, server: 103.164.81.114, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 欧洲 9, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 欧洲 10, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
-  - {name: 欧洲 11, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
-  - {name: 欧洲 12, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
-  - {name: 欧洲 13, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
-  - {name: 欧洲 14, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
-  - {name: 欧洲 15, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 欧洲 16, server: hkf1.dior.bar, port: 80, type: vmess, uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hkf1.dior.bar}, udp: true}
-  - {name: 欧洲 17, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 欧洲 18, server: hk.azure.elaina.link, port: 443, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /JJkuv3, ws-headers: {Host: hk.azure.elaina.link}, udp: true}
-  - {name: 欧洲 19, server: hk.azure.elaina.link, port: 56688, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hhhaaa114514, ws-headers: {Host: hk.azure.elaina.link}, udp: true}
-  - {name: 欧洲 20, server: hk.azure.elaina.link, port: 80, type: vmess, uuid: d360a89a-3618-4573-91c9-3c3d7cd5df68, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk.azure.elaina.link}, udp: true}
-  - {name: 欧洲 21, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
-  - {name: 欧洲 22, server: jmcm.rokishi.cyou, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 欧洲 23, server: hzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇨🇳 台湾, server: jmcm.rokishi.cyou, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 欧洲 24, server: jmcm.rokishi.cyou, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 欧洲 25, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}, udp: true}
-  - {name: 欧洲 26, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw, udp: true}
-  - {name: 欧洲 27, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 欧洲 28, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: 欧洲 29, server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK, udp: true}
-  - {name: 欧洲 30, server: 86.105.25.162, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK, udp: true}
-  - {name: 🇸🇬 新加坡, server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}, udp: true}
-  - {name: 欧洲 31, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: 欧洲 32, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 欧洲 33, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 欧洲 34, server: gz.dns.yslink.cc, port: 30020, type: ss, cipher: aes-128-gcm, password: 9f9fa5c0-4ad5-4929-98cb-c736369f7860, udp: true}
-  - {name: 欧洲 35, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 欧洲 36, server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 37, server: 193.108.118.182, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲 38, server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 39, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}, udp: true}
-  - {name: 欧洲 40, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 欧洲 41, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 42, server: 172.105.35.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲 43, server: 85.208.108.18, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲 44, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: 欧洲 45, server: 134.195.196.107, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲 46, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 47, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲 48, server: 134.195.196.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 美国, server: gz.cm.data2china.com, port: 30044, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇺🇲 美国 2, server: hzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇺🇲 美国 3, server: gzcm.rokishi.cyou, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇺🇲 美国 4, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 5, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 🇺🇲 美国 6, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
-  - {name: 🇺🇲 美国 7, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇲 美国 8, server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇲 美国 9, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 美国 10, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 美国 11, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
-  - {name: 🇨🇳 台湾 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 3, server: jmcm.rokishi.cyou, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇭🇰 香港, server: jmcm.rokishi.cyou, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: d360a89a-3618-4573-91c9-3c3d7cd5df68, udp: true}
-  - {name: 🇭🇰 香港 2, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 2, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 3, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国 4, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}, udp: true}
+  - {name: 🇺🇲 美国 5, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 6, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国 7, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 🇺🇲 美国 8, server: 167.88.61.2, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇲 美国 9, server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国 10, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国 11, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: 🇺🇲 美国 12, server: 149.248.18.62, port: 64827, type: vmess, uuid: ab1b264e-5fae-11ec-b1b0-560003be094f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ESewoGXy/, ws-headers: {Host: 149.248.18.62}, udp: true}
+  - {name: 🇺🇲 美国 13, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /114514, ws-headers: {Host: domeixi.nbczl233.ml}, udp: true}
+  - {name: 🇺🇲 美国 14, server: 167.88.61.2, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇲 美国 15, server: 167.88.61.2, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇲 美国 16, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国 17, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国 18, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
+  - {name: 欧洲, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: 欧洲 2, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: 欧洲 3, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 欧洲 4, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 欧洲 5, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 6, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 7, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6, udp: true}
+  - {name: 欧洲 8, server: shai7ein.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: shai7ein.com}, udp: true}
+  - {name: 欧洲 9, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
+  - {name: 欧洲 10, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 欧洲 11, server: 120.197.88.216, port: 20047, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
+  - {name: 欧洲 12, server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: 欧洲 13, server: 194.124.35.40, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 14, server: 194.124.35.40, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 15, server: 194.124.35.40, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 16, server: 194.124.35.40, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 17, server: 120.232.173.88, port: 45319, type: vmess, uuid: 310948de-6c49-36f3-990e-2048adea5ab0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /inde, ws-headers: {Host: 120.232.173.88}, udp: true}
+  - {name: 欧洲 18, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 欧洲 19, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 欧洲 20, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欧洲 21, server: t4.ssrsub.com, port: 156, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t4.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲 22, server: t4.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t4.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲 23, server: t3.ssrsub.com, port: 156, type: trojan, password: 3babef69-fb91-47f8-8882-e5a0a1ba3689, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲 24, server: 172.105.232.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 25, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
+  - {name: 欧洲 26, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 27, server: 142.202.48.83, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 28, server: 142.202.48.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 29, server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲 30, server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 31, server: 142.202.48.83, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 32, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 33, server: 38.107.226.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 34, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 35, server: 72.140.224.197, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 36, server: 72.140.224.197, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 37, server: 72.140.224.197, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 欧洲 38, server: 146.0.36.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 39, server: 37.19.218.197, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER, udp: true}
+  - {name: 欧洲 40, server: 38.107.226.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇯🇵 日本, server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇨🇳 台湾, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇨🇳 台湾 2, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇨🇳 台湾 3, server: 120.197.88.216, port: 20002, type: vmess, uuid: 0c80b44c-d683-4ec3-94b0-f356ec134d54, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
+  - {name: 🇨🇳 台湾 4, server: 120.197.88.216, port: 20003, type: vmess, uuid: e016e2ce-e311-4658-874b-0de7c03ecdc0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇨🇳 台湾 5, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 🇨🇳 台湾 6, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 🇭🇰 香港, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇭🇰 香港 2, server: 120.197.88.216, port: 20001, type: vmess, uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
+  - {name: 🇭🇰 香港 3, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4, server: 20.187.111.148, port: 10156, type: vmess, uuid: 072d1fd1-af44-3ea2-a530-3e4d58fd6fc5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}, udp: true}
+  - {name: 🇭🇰 香港 5, server: 20.187.111.148, port: 10156, type: vmess, uuid: 52c197fd-667a-3194-adb6-dfc0ccafa4c5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}, udp: true}
+  - {name: 🇭🇰 香港 6, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -99,7 +123,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -107,7 +130,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -118,34 +140,42 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -169,7 +199,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -177,7 +206,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -188,35 +216,43 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -240,7 +276,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -248,7 +283,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -259,29 +293,19 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -300,6 +324,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -323,7 +365,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -331,7 +372,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -342,29 +382,19 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -372,14 +402,39 @@ proxy-groups:
       - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -403,7 +458,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -411,7 +465,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -422,34 +475,42 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -473,7 +534,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -481,7 +541,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -492,35 +551,43 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -544,7 +611,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -552,7 +618,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -563,29 +628,19 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -601,6 +656,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇺🇲 美国 5
+      - 🇺🇲 美国 6
+      - 🇺🇲 美国 7
+      - 🇺🇲 美国 8
+      - 🇺🇲 美国 9
+      - 🇺🇲 美国 10
+      - 🇺🇲 美国 11
+      - 🇺🇲 美国 12
+      - 🇺🇲 美国 13
+      - 🇺🇲 美国 14
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 🇺🇲 美国 17
+      - 🇺🇲 美国 18
       - 欧洲
       - 欧洲 2
       - 欧洲 3
@@ -624,7 +697,6 @@ proxy-groups:
       - 欧洲 21
       - 欧洲 22
       - 欧洲 23
-      - 🇨🇳 台湾
       - 欧洲 24
       - 欧洲 25
       - 欧洲 26
@@ -632,7 +704,6 @@ proxy-groups:
       - 欧洲 28
       - 欧洲 29
       - 欧洲 30
-      - 🇸🇬 新加坡
       - 欧洲 31
       - 欧洲 32
       - 欧洲 33
@@ -643,29 +714,19 @@ proxy-groups:
       - 欧洲 38
       - 欧洲 39
       - 欧洲 40
-      - 欧洲 41
-      - 欧洲 42
-      - 欧洲 43
-      - 欧洲 44
-      - 欧洲 45
-      - 欧洲 46
-      - 欧洲 47
-      - 欧洲 48
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇺🇲 美国 3
-      - 🇺🇲 美国 4
-      - 🇺🇲 美国 5
-      - 🇺🇲 美国 6
-      - 🇺🇲 美国 7
-      - 🇺🇲 美国 8
-      - 🇺🇲 美国 9
-      - 🇺🇲 美国 10
-      - 🇺🇲 美国 11
+      - 🇯🇵 日本
+      - 🇨🇳 台湾
       - 🇨🇳 台湾 2
       - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇨🇳 台湾 6
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
+      - 🇭🇰 香港 4
+      - 🇭🇰 香港 5
+      - 🇭🇰 香港 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
